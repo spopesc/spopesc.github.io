@@ -3,9 +3,156 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>spopesc.github.io</title>
+    <title>Stefan Popescu</title>
+
+    <style>
+
+        .page-box {
+            max-width: 980px;
+            margin: 60px auto;
+            padding: 6px;
+
+            background-color: #000;
+            border: 3px solid #fff;
+            border-radius: 16px;
+        }
+
+        .container {
+            padding: 40px;
+            color: #f0f0f0;
+        }
+
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background-image: url("domain1.png"); /* replace with your image */
+            background-size: cover;
+            background-position: center;
+            filter: blur(35px) brightness(0.6);
+            transform: scale(1.1); /* prevents blur edges */
+            z-index: -1;
+        }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #ffffff;
+        color: #222;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        background: url("mapping.png") center / cover fixed no-repeat;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 40px;
+      }
+
+      header img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 50%;
+        background-color: #eee;
+        border: 2px solid #ddd;
+      }
+      
+      footer {
+        margin-top: 20px;   /* increase this if you want more space */
+        padding: 20px 0;
+        border-top: 1px solid #eee;
+        text-align: center;
+        font-size: 0.9rem;
+        color: #666;
+        }
+
+
+      h1 {
+        margin: 0;
+        font-size: 2.2rem;
+      }
+
+      h2 {
+        margin-top: 40px;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 5px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        justify-self: center;
+        align-self: center;
+        padding: 12px 20px;
+        border-radius: 999px;
+        }
+
+
+      .links a {
+        margin-right: 15px;
+        text-decoration: none;
+        color: #0066cc;
+        font-weight: bold;
+      }
+
+      .links a:hover {
+        text-decoration: underline;
+      }
+
+    </style>
   </head>
+
   <body>
-    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-  </body>
+
+    <div class="page-box">
+        <div class="container">
+
+        <header>
+            <img src="DSC00326.jpg">
+            <div>
+            <h1>Stefan Popescu</h1>
+            </div>
+        </header>
+
+        <section>
+            <h2>Welcome to my webpage!</h2>
+            <p>My name is Stefan Popescu, and I am a first-year PhD student at Virginia Tech studying Computer Science & Applications. From a young age, I have had a passion for mathematics and how I could apply it to make sense of the world around me. As an undergraduate student, I attended George Mason University, where I studied computer science, as I felt it would be both practical and highly versatile. I believe we are living through a technological revolution - with the world wide web being just a few decades old and AI chatbots being just a few years old, new technologies are bound to appear in the future, and as I continue my journey, I would like to contribute to research that will be a part of this revolution. Currently, my research interests broadly lie within the fields of computational mathematics, scientific computing, and numerical methods.</p>
+            <p>In my spare time, I enjoy running and lifting weights. I also enjoy solving a good puzzle, such as a Rubik's cube.</p>
+        </section>
+
+        <section>
+            <h2>Links</h2>
+            <div class="links">
+            <a href="StefanPopescuResumeDec2025.pdf" target="_blank">Resume</a>
+            <a href="https://www.linkedin.com/in/stefan-popescu-676573289/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/spopesc" target="_blank">GitHub</a>
+            </div>
+        </section>
+
+        <footer>
+            Created: September 28, 2024<br>
+            Updated: December 22, 2025
+        </footer>
+
+        </div>
+    </div>
+
+    </body>
 </html>
