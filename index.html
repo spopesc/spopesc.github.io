@@ -1,158 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stefan Popescu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-    <style>
+<body>
 
-        .page-box {
-            max-width: 980px;
-            margin: 60px auto;
-            padding: 6px;
+<div class="page">
 
-            background-color: #000;
-            border: 3px solid #fff;
-            border-radius: 16px;
-        }
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#interests">Research Interests</a></li>
+            <li><a href="#research">Current Research</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#teaching">Teaching</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-        .container {
-            padding: 40px;
-            color: #f0f0f0;
-        }
-
-
-        body::before {
-            content: "";
-            position: fixed;
-            inset: 0;
-            background-image: url("domain1.png"); /* replace with your image */
-            background-size: cover;
-            background-position: center;
-            filter: blur(35px) brightness(0.6);
-            transform: scale(1.1); /* prevents blur edges */
-            z-index: -1;
-        }
-
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: #ffffff;
-        color: #222;
-        margin: 0;
-        padding: 0;
-        line-height: 1.6;
-        background: url("mapping.png") center / cover fixed no-repeat;
-      }
-
-      .container {
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 40px 20px;
-      }
-
-      header {
-        display: flex;
-        align-items: center;
-        gap: 30px;
-        margin-bottom: 40px;
-      }
-
-      header img {
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        object-position: top;
-        border-radius: 50%;
-        background-color: #eee;
-        border: 2px solid #ddd;
-      }
-      
-      footer {
-        margin-top: 20px;   /* increase this if you want more space */
-        padding: 20px 0;
-        border-top: 1px solid #eee;
-        text-align: center;
-        font-size: 0.9rem;
-        color: #666;
-        }
-
-
-      h1 {
-        margin: 0;
-        font-size: 2.2rem;
-      }
-
-      h2 {
-        margin-top: 40px;
-        border-bottom: 2px solid #eee;
-        padding-bottom: 5px;
-      }
-
-      ul {
-        padding-left: 20px;
-      }
-
-      .links {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 12px;
-        justify-self: center;
-        align-self: center;
-        padding: 12px 20px;
-        border-radius: 999px;
-        }
-
-
-      .links a {
-        margin-right: 15px;
-        text-decoration: none;
-        color: #0066cc;
-        font-weight: bold;
-      }
-
-      .links a:hover {
-        text-decoration: underline;
-      }
-
-    </style>
-  </head>
-
-  <body>
-
-    <div class="page-box">
-        <div class="container">
-
-        <header>
-            <img src="DSC00326.jpg">
-            <div>
+    <header>
+        <img src="DSC00326.jpg" alt="Portrait">
+        <div>
             <h1>Stefan Popescu</h1>
-            </div>
-        </header>
 
-        <section>
-            <h2>Welcome to my webpage!</h2>
-            <p>My name is Stefan Popescu, and I am a first-year PhD student at Virginia Tech studying Computer Science & Applications. From a young age, I have had a passion for mathematics and how I could apply it to make sense of the world around me. As an undergraduate student, I attended George Mason University, where I studied computer science, as I felt it would be both practical and highly versatile. I believe we are living through a technological revolution - with the world wide web being just a few decades old and AI chatbots being just a few years old, new technologies are bound to appear in the future, and as I continue my journey, I would like to contribute to research that will be a part of this revolution. Currently, my research interests broadly lie within the fields of computational mathematics, scientific computing, and numerical methods.</p>
-            <p>In my spare time, I enjoy running and lifting weights. I also enjoy solving a good puzzle, such as a Rubik's cube.</p>
-        </section>
+            <h3>
+                Ph.D. Student<br>
+                Department of Computer Science<br>
+                Virginia Tech
+            </h3>
 
-        <section>
-            <h2>Links</h2>
-            <div class="links">
-            <a href="StefanPopescuResumeDec2025.pdf" target="_blank">Resume</a>
-            <a href="https://www.linkedin.com/in/stefan-popescu-676573289/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/spopesc" target="_blank">GitHub</a>
-            </div>
-        </section>
-
-        <footer>
-            Created: September 28, 2024<br>
-            Updated: December 22, 2025
-        </footer>
+            <h5>
+                Welcome to my webpage!
+            </h5>
 
         </div>
-    </div>
 
-    </body>
+    </header>
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>I am a second-year Ph.D. student in Computer Science with research interests at the intersection of applied mathematics and scientific computing. My work focuses primarily on designing mathematically grounded algorithms for large-scale inverse problems.</p>
+        <br><p>From a young age, I have had a passion for mathematics and how I could apply it to make sense of the world around me. As an undergraduate student, I attended George Mason University, where I studied computer science, as I felt it would be both practical and highly versatile. I believe we are living through a technological revolution - with the world wide web being just a few decades old and AI chatbots being just a few years old, new technologies are bound to appear in the future, and as I continue my journey, I would like to contribute to research that will be a part of this revolution.</p>
+        <br><p>In my spare time, I enjoy running and working out. I also enjoy a good puzzle, such as a Rubik's cube.</p>
+
+    </section>
+
+    <section id="interests">
+        <h2>Research Interests</h2>
+        <ul>
+            <li>Inverse Problems</li>
+            <li>Data Assimilation</li>
+            <li>Computational Mathematics</li>
+            <li>Numerical Linear Algebra</li>
+            <li>Optimization</li>
+        </ul>
+    </section>
+
+    <section id="publications">
+
+        <h2>Publications</h2>
+        <div class="publication">
+            W. Carey, M. Kearney, R. Kirsch, and <strong>S. Popescu</strong>.
+            <em>Universal partial tori.</em>
+            Designs, Codes, and Cryptography, 2025.<br>
+        </div>
+
+    </section>
+
+    <section id="teaching">
+        <h2>Teaching</h2>
+
+        <ul>
+            <li> Graduate Teaching Assistant - CS 5044, Fall 2025</li>
+            <li> Graduate Teaching Assistant - CS 3114, Spring 2026</li>
+        </ul>
+    </section>
+
+    <section id="links">
+        <h2>Links</h2>
+        <div class="links">
+            <a href="https://scholar.google.com/">Google Scholar</a>
+            <a href="https://github.com/">GitHub</a>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            Department of Computer Science<br>
+            Virginia Tech<br><br>
+
+            Email: <a href="mailto:spopesc@vt.edu">spopesc@vt.edu</a>
+        </p>
+    </section>
+
+    <footer>
+        Created: September 28, 2024<br>
+        Last Updated: July 13, 2026
+    </footer>
+
+</div>
+
+</body>
 </html>
