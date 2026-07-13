@@ -16,7 +16,7 @@ body {
 
     background-image: url("mapping.png");
     background-position: center;
-    background-size: 50%;      /* Increase to 140% or 150% if you want more zoom */
+    background-size: 43%;      /* Increase to 140% or 150% if you want more zoom */
     background-repeat: repeat;
     background-attachment: fixed;
 
